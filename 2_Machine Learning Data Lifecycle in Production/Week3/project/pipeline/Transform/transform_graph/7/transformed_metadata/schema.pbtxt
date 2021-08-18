@@ -1,0 +1,49 @@
+feature {
+  name: "Cover_Type"
+  type: INT
+}
+feature {
+  name: "Elevation_xf"
+  type: FLOAT
+}
+feature {
+  name: "Hillshade_9am_xf"
+  type: FLOAT
+}
+feature {
+  name: "Hillshade_Noon_xf"
+  type: FLOAT
+}
+feature {
+  name: "Horizontal_Distance_To_Fire_Points_xf"
+  type: FLOAT
+}
+feature {
+  name: "Horizontal_Distance_To_Hydrology_xf"
+  type: FLOAT
+}
+feature {
+  name: "Horizontal_Distance_To_Roadways_xf"
+  type: FLOAT
+}
+feature {
+  name: "Slope_xf"
+  type: FLOAT
+}
+feature {
+  name: "Soil_Type_xf"
+  type: INT
+}
+feature {
+  name: "Vertical_Distance_To_Hydrology_xf"
+  type: FLOAT
+}
+feature {
+  name: "Wilderness_Area_xf"
+  type: INT
+  int_domain {
+    min: -1
+    max: 3
+    is_categorical: true
+  }
+}
